@@ -31,4 +31,6 @@ Install dependencies: uv sync
 Run the application: uv run python -m streamlit run app.py
 
 
+
+
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/b9a3e66a-c6a4-4670-8d5f-966fb1a6333c" />
