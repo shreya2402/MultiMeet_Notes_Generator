@@ -1,11 +1,9 @@
-About the Application
+# About the Application
 
-MultiMeet Notes converts multilingual meeting recordings into English summaries, speaker-level transcripts, action items, and structured meeting insights.
-About the Application
 MultiMeet Notes is an AI-powered application that turns meeting recordings into clear and organized notes. A user uploads an audio file, and the application detects the spoken language, transcribes the meeting, identifies different speakers, creates an English summary, extracts action items, and displays the complete transcript with useful statistics.
 It uses Streamlit for the interface, AssemblyAI for transcription and speaker diarization, and OpenAI for meeting analysis.
 
-What the Application Does
+## What the Application Does
 - Detects the language spoken in the meeting
 - Converts meeting audio into text
 - Identifies different speakers using speaker diarization
@@ -14,7 +12,7 @@ What the Application Does
 - Displays the full transcript with timestamps and statistics
 - Allows users to download meeting notes as a Markdown file
 
-Steps to Replicate
+## Steps to Replicate
 1. Install Python and uv: Install Python 3.9 or newer and uv.
 2. Open the project folder: Confirm app.py, pyproject.toml, and src are present.
 3. Install dependencies: Run: uv sync
@@ -26,7 +24,7 @@ Steps to Replicate
 9. Review the results: Check language, summary, speakers, action items, transcript, and statistics.
 10. Download the notes: Use Download as Markdown to save the results.
 
-Main Commands
+## Main Commands
 - Install dependencies: uv sync
 - Run the application: uv run python -m streamlit run app.py
 
