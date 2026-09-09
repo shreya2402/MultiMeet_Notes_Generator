@@ -1,0 +1,14 @@
+[project]
+name = "multimeet-notes"
+version = "0.1.0"
+description = "AI-powered multilingual meeting transcription and meeting notes application"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "streamlit>=1.49.1",
+    "assemblyai>=0.21.0",
+    "openai>=1.99.9",
+    "pandas>=2.0.0",
+    "python-dotenv>=1.0.0",
+]
+
