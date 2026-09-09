@@ -27,8 +27,8 @@ Steps to Replicate
 10. Download the notes: Use Download as Markdown to save the results.
 
 Main Commands
-Install dependencies: uv sync
-Run the application: uv run python -m streamlit run app.py
+- Install dependencies: uv sync
+- Run the application: uv run python -m streamlit run app.py
 
 
 
